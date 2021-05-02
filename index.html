@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main">
+
+
+
+        <div class="header">
+            <span style="font-weight: bold; font-size: 30px;">SRI SAMBA SIVA ENGINEERING WORKS</span><br><br>
+            <span>Vellanki Estate, Munukulla Road, TIRUVURU - 521235, Krishna Dist.<br>Email : rambabu6333@gmail.com,
+                Cell : 9885647278.</span>
+            <span style="font-weight: bold;">GST No : 37AHWPC7997H1ZE</span><br><br>
+            <span style="font-weight: bold;">TAX INVOICE</span>
+        </div>
+
+        <div class="section">
+            <div class="sectionleft">
+                <h4>Tax is payable on Reverse Charge : ( Yes / No )<br>
+                    Invoice Serial number : <span id="serial_number">00</span> <br>
+                    Invoice Date: <span id="invoice_date"></span>
+                </h4>
+
+                <div class="statecode">State code : 37</div>
+
+            </div>
+            <div class="sectionright">
+                <div class="bro"> Mode : (Own/Hired)</div>
+                <div class="bro">Vehicle No:</div>
+                <div class="bro">Date & Time of Supply:</div>
+                <div class="bro">Place of Supply: </div>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="billto">
+                 Details of Reciver (Billed to)
+            </div>
+            <div class="shippedto">
+                Details of Consignee (Shipped to) 
+            </div>
+        </div>
+        <div class="section3">
+            <div class="details1">
+                <div class="details1_left">
+                    
+                        Name : <br>
+                        S/o :  <br>
+                        Address :  <br>
+                        <br>
+                        State :  <br>
+                        State Code : 
+                    
+                </div>
+                <div class="details1_right">
+                    
+                        <span id="CName"></span> <br>
+                        <span id="sonof"></span><br>
+                        <span id="addr"></span><br><br>
+                        <span id="stat"></span> <br>
+                        37
+                </div>
+
+
+            </div>
+            <div class="details2">
+                <div class="details1_left">
+                    
+                        Name : <br>
+                        S/o : <br>
+                        Address : <br>
+                        <br>
+                        State : <br>
+                        State Code :
+                    
+                </div>
+                <div class="details1_right">
+                    
+                        <span id="CNameE"></span> <br>
+                        <span id="sonofF"></span><br>
+                        <span id="addrR"></span><br><br>
+                        <span id="statT"></span> <br>
+                        37
+                </div>
+            </div>
+        </div>
+        <div class="gst_main">
+            <div class="gst_left">
+                GSTIN :
+            </div>
+            <div class="gst_right">
+                GSTIN :
+            </div>
+        </div>
+        <div class="section4">
+            <table border="1px solid black" cellpadding="3" cellspacing="5">
+                <tr height="30px">
+                    <th width="74px">S.No</th>
+                    <th width="300px">Description of goods</th>
+                    <th width="120px">HSN Code</th>
+                    <th width="120px">Qty</th>
+                    <th width="120px">Uom</th>
+                    <th width="120px">Rate</th>
+                    <th width="120px">Total</th>
+                    <th width="120px">Discount</th>
+                    <th>Taxable value</th>
+                </tr>
+                <tr height="130px" class="tablerow">
+                    <td>1.</td>
+                    <td width="250px">5 Tone 2 Wheeler Semi Trailor
+                        Tipping Type ,
+                        Size 10 1⁄2’”6’” 18’
+                        Iron flat from and wooden Doors with leaf springs and helpers , duly painted
+                    </td>
+                    <td>8716</td>
+                    <td>1</td>
+                    <td>NOS</td>
+                    <td><span id="ratee"></span></td>
+                    <td></td>
+                    <td></td>
+                    <td><span id="taxAmount"></span></td>
+                </tr>
+                <tr>
+                    <td colspan="8"> Total Taxble Value</td>
+                    <td><span id="taxAmountT"></span></td>
+                </tr>
+                <tr>
+                    <td colspan="9" >Chassis.No : <span id="chassis_no"></span></td>
+                </tr>
+                <tr height="10px">
+                    <td rowspan = "3" colspan="6"> STATE BANK OF INDIA – TIRUVURU BRANCH <br>IFS CODE : SBIN0000794 <br> A/C No : 30751928043 </td>
+                    <td >CGST</td>
+                    <td> 6%</td>
+                    <td><span id="gst_value"></span></td>
+                </tr>
+                <tr>
+                    <td >SGST</td>
+                    <td> 6%</td>
+                    <td><span id="gst_valueE"></span></td>
+                </tr>
+                <tr>
+                    <td >IGST</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="6"> </td>
+                    <td colspan="2">Invoice Total</td>
+                    <td><span id="rateeE"></span</td>
+                </tr>
+                <tr>
+                    <td colspan="9">
+                        Total Invoice Amount in words Rs.<span id="amount"> One lakh rupees only.</span>
+                    </td>
+                </tr>
+
+            </table>
+            <div class="section5">
+                <span style="font-weight: bold;">SRI SAMBHASIVA ENGINEERING WORKS</span>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <footer>
+        <a href="data.html">Back</a>
+        <input type = "button" value = "Print" onclick = "window.print()" />
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,480 @@
+body{
+    width:100%;
+    height:1000px;
+    background-color: aqua;
+}
+.header{
+    width: 99%;
+    height: 220px;
+    background-color:azure;
+    border: 1px solid black;
+    text-align: center;
+    border-bottom: 0;
+}
+.section{
+    width: 99%;
+    height: 200px;
+    background-color:azure;
+    border: 1px solid black;
+    display: flex;
+}
+.section2{
+    background-color:azure;
+    border: 1px solid black; 
+ width: 99%;
+ height: 50px;
+ border-top:0;
+    display: flex; 
+}
+.section3{
+    background-color:azure;
+    border: 1px solid black; 
+ width: 99%;
+ display: flex;
+
+}
+.details1{
+    display: flex;
+    justify-content:space-around ;
+    padding: 10px;
+    height: 100%;
+    width: 50%;
+    border-right: 1px solid black;
+}
+.details2{
+    display: flex;
+    justify-content:space-around ;
+padding: 10px;
+height: 100%;
+width: 50%;
+
+}
+.gst_main{
+    display: flex;
+    background-color:azure;
+    width: 99%;
+    border: 1px solid black;
+}
+.gst_left{
+   padding-left: 10px;
+    width: 49.3%;
+    border-right: 1px solid black;
+}
+.gst_right{
+    padding-left: 10px;
+    width: 49.3%;
+}
+.billto{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    border-right: 0;
+    border-right: 1px solid black;
+    
+}
+
+
+
+
+.shippedto{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+
+    border-top: 0;
+    
+    
+   
+    
+}
+
+
+.sectionleft{
+    width: 49.2%;
+    height: 100%;
+    border-right: 1px solid black;
+    padding-left: 10px;
+}
+.statecode{
+    position: absolute;
+    width: 12%;
+    padding: 10px;
+    text-align: center;
+   bottom: 290px;
+    border: 1px solid black;
+ 
+}
+
+.bro{
+    border: 1px solid black;
+    width: 95.1%;
+    border-right:0;
+    border-left: 0;
+    border-bottom: 0;
+    
+    padding: 15.5px;
+       
+    
+}
+.sectionright{
+    width: 50%;
+    height: 100%;
+    
+    
+}
+table {
+    border-collapse: collapse;
+    background-color:azure;
+  }
+  th{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-weight: solid;
+  } 
+  td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+  }
+  .cell_right{
+      text-align: left;
+  }
+  .section5{
+      border: 1px solid black;
+      background-color: azure;     
+        width: 98.7%;
+    height: 50px;
+  }
+  .section5 span{
+      float: right;
+      padding-right: 10px;
+  }
+  form{
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid black;
+      align-items: center;
+  }
+  .data_header{
+      width: 100%;
+      text-align: center;
+  }
+  form input{
+      width: 250px;
+      height: 25px;
+  }
+  
+ form button{
+     width: 100px;
+     height: 25px;
+     border-radius: 5px;
+ }
+ .data_main{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+   
+ }
+ footer{
+     width: 98%;
+     height: 50px;
+     display: flex;
+     justify-content: center;
+ }
+ footer input{
+     width: 100px;
+     height: 30px;
+     margin: 15px;
+     font-weight: bold;
+ }
+ footer a{
+     text-decoration: none;
+     background-color: whitesmoke;
+     text-align: center;
+     color: black;
+     border: 1px solid black;
+     width: 100px;
+     height: 20px;
+     margin: 15px;
+     padding: 10px;
+     font-weight: bold;
+ }
+ #clickMe{
+     margin-bottom: 10px;
+     width: 85px;
+     height: 35px;
+     background-color: whitesmoke;
+     border-radius: 5px;
+     font-weight: bold;
+ }
+     
+ 
+
+ form button{
+    width: 100px;
+    height: 30px;
+    margin: 15px;
+    font-weight: bold;
+}
+form a{
+    text-decoration: none;
+    color: black;
+    
+}
+@media screen and (max-width: 646px){
+    body {
+        width: fit-content;
+        /* width: 100%; */
+        height: 1000px;
+        background-color: aqua;
+    }
+    .section {
+        width: 98.8%;
+        height: 200px;
+        background-color: azure;
+        border: 1px solid black;
+        display: flex;
+    }
+    .bro {
+        border: 1px solid black;
+        width: 90.3%;
+        border-right: 0;
+        border-left: 0;
+        border-bottom: 0;
+        padding: 15.5px;
+    }
+    .statecode {
+        
+        width: 30%;
+        padding: 10px;
+        text-align: center;
+         bottom: 220px; 
+        border: 1px solid black;
+    }
+}
+@page{
+    margin-bottom: 0;
+}
+@media print {
+    body{
+        width: 21cm;
+        height: 29.7cm;
+        margin: 0; 
+       
+   } 
+   footer{
+       display: none;
+   }
+    .header{
+        width: 99%;
+        height: 130px;
+        background-color:azure;
+        border: 1px solid black;
+        text-align: center;
+        border-bottom: 0;
+    }
+    .section{
+        width: 99%;
+        height: 175px;
+        background-color:azure;
+        border: 1px solid black;
+        display: flex;
+    }
+    .section2{
+        background-color:azure;
+        border: 1px solid black; 
+     width: 99%;
+     height: 35px;
+     border-top:0;
+        display: flex; 
+    }
+    .section3{
+        background-color:azure;
+        border: 1px solid black; 
+     width: 99%;
+     height: 120px;
+     display: flex;
+    
+    }
+    .details1{
+        display: flex;
+        justify-content:space-around ;
+        padding: 10px;
+        height: 150px;
+        width: 50%;
+        border-right: 1px solid black;
+    }
+    .details2{
+        display: flex;
+        justify-content:space-around ;
+    padding: 10px;
+    height: 150px;
+    width: 50%;
+    
+    }
+    .gst_main{
+        display: flex;
+        background-color:azure;
+        width: 99%;
+        height:30px ;
+        border: 1px solid black;
+    }
+    .gst_left{
+       padding-left: 10px;
+        width: 49.3%;
+        height: 30px;
+        border-right: 1px solid black;
+    }
+    .gst_right{
+        padding-left: 10px;
+        width: 49.3%;
+        height: 30px;
+    }
+    .billto {
+        text-align: center;
+        width: 50%;
+        border-right:0;
+        border-left: 0;
+        border-bottom: 0;
+        height: 10px;
+        
+        padding: 15.5px;
+        border-right: 1px solid black;
+        
+    }
+    
+    
+    
+    .shippedto{
+        text-align: center;
+        width: 50%;
+        border-right:0;
+        border-left: 0;
+        border-bottom: 0;
+        height: 10px;
+        
+        padding: 15.5px;
+    }
+    
+    
+    .sectionleft{
+        width: 49.2%;
+        height: 100%;
+        border-right: 1px solid black;
+        padding-left: 10px;
+    }
+    .sectionleft h4{
+        font-size: 13px;
+    }
+    .statecode{
+        position: absolute;
+        width: 12%;
+        padding: 10px;
+        text-align: center;
+       bottom: 850px;
+        border: 1px solid black;
+     
+    }
+    
+    .bro{
+        border: 1px solid black;
+        width: 91%;
+        border-right:0;
+        border-left: 0;
+        border-bottom: 0;
+        height: 10px;
+        
+        padding: 15.5px;
+           
+        
+    }
+    .sectionright{
+        width: 50%;
+        height: 100%;
+        
+        
+    }
+    table {
+        border-collapse: collapse;
+        background-color:azure;
+      }
+      th{
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+        font-weight: solid;
+      } 
+      td {
+        border: 1px solid black;
+        padding: 15px;
+        text-align: left;
+      }
+      .cell_right{
+          text-align: left;
+      }
+      .section5{
+        border: 1px solid black;
+        background-color: azure;     
+          width: 100%;
+      height: 50px;
+    }
+    .section5 span{
+        float: right;
+        padding-right: 10px;
+    }
+      table{
+          height: 300px;
+      }
+      form{
+          width: 300px;
+          display: flex;
+          flex-direction: column;
+          border: 1px solid black;
+          align-items: center;
+      }
+      .data_header{
+          width: 100%;
+          text-align: center;
+      }
+      form input{
+          width: 250px;
+          height: 25px;
+      }
+      
+     form button{
+         width: 100px;
+         height: 25px;
+         border-radius: 5px;
+     }
+     .data_main{
+         width: 100%;
+         display: flex;
+         justify-content: center;
+       
+     }
+     
+     #clickMe{
+         margin-bottom: 10px;
+         width: 85px;
+         height: 35px;
+         background-color: whitesmoke;
+         border-radius: 5px;
+         font-weight: bold;
+     }
+         
+     
+    
+     form button{
+        width: 100px;
+        height: 30px;
+        margin: 15px;
+        font-weight: bold;
+    }
+    form a{
+        text-decoration: none;
+        color: black;
+        
+    }   
+}
